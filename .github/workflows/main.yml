@@ -22,7 +22,7 @@ jobs:
       working-directory: ./renderer
     - run: npm run lint
       working-directory: ./renderer
-    - run: npm run build
+    - run: npm run build -- --no-lint
       working-directory: ./renderer
     - uses: actions/upload-artifact@v7
       with:
