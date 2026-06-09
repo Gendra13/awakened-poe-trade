@@ -8,10 +8,10 @@ export let CLIENT_STRINGS: TranslationDict
 export let CLIENT_STRINGS_REF: TranslationDict
 export let APP_PATRONS: Array<{ from: string, months: number, style: number }>
 
-export let ITEM_BY_TRANSLATED = (ns: BaseType['namespace'], name: string): BaseType[] | undefined => undefined
-export let ITEM_BY_REF = (ns: BaseType['namespace'], name: string): BaseType[] | undefined => undefined
-export let ITEMS_ITERATOR = function * (includes: string, andIncludes?: string[]): Generator<BaseType> {}
-export let DISENCHANT_UNIQUE_ITEMS_ITERATOR = function * (includes: string, andIncludes?: string[]): Generator<DisenchantUniqueItem> {}
+export let ITEM_BY_TRANSLATED = (_ns: BaseType['namespace'], _name: string): BaseType[] | undefined => undefined
+export let ITEM_BY_REF = (_ns: BaseType['namespace'], _name: string): BaseType[] | undefined => undefined
+export let ITEMS_ITERATOR = function * (_includes: string, _andIncludes?: string[]): Generator<BaseType> {}
+export let DISENCHANT_UNIQUE_ITEMS_ITERATOR = function * (_includes: string, _andIncludes?: string[]): Generator<DisenchantUniqueItem> {}
 
 export let ALTQ_GEM_NAMES: () => Generator<string> = function * () {}
 export let REPLICA_UNIQUE_NAMES: () => Generator<string> = function * () {}
